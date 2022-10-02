@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 900px;
+  width: 100vw;
+  background-image: url(./lottery.jpg);
+}
+
+h1 {
+  color: bisque;
+  text-shadow: 0px 0px 20px blue;
+  height: 10vh;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.screen {
+  opacity: 0.9;
+  width: 900px;
+  height: 30vh;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.num {
+  background-color: orange;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 20%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border: 1px solid blue;
+  box-shadow: 0px 20px 30px black;
+  transition: all 1s;
+}
+
+.num:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.rst {
+  margin-left: 2rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.btn:hover,
+.rst:hover {
+  cursor: pointer;
+}
+
+.result {
+  width: 650px;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgba(250, 235, 215, 0.662);
+  border-bottom: red;
+  border-radius: 10px;
+  margin: 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+span {
+  color: blue;
+}
